@@ -216,7 +216,7 @@ self.addEventListener('fetch', function(event) {
 
     // First, remove all the ignored parameters and hash fragment, and see if we
     // have that URL in our cache. If so, great! shouldRespond will be true.
-    var url = stripIgnoredUrlParameters(event.request.url, ignoreUrlParametersMatching);
+    var url = stripIgnoredUrlParameters("https://mithleshdhore.github.io/ProgressiveWebApp/", ignoreUrlParametersMatching);
     shouldRespond = urlsToCacheKeys.has(url);
 
     // If shouldRespond is false, check again, this time with 'index.html'
