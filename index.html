@@ -9,6 +9,16 @@
   <title>Intangles</title>
   <base href="." target="_top">
   <link rel="manifest" href="manifest.json">
+ 
+  <script>
+  (function(){
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
 
   <!-- iOS -->
   <meta name="apple-mobile-web-app-title" content="Car Deals">
