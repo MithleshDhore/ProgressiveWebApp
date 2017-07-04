@@ -50,7 +50,7 @@
 	],
   "scope": "/",
   "start_url": "index.html?utm_source=web_app_manifest",
-  "orientation": "portrait",
+  "orientation": "landscape",
   "display": "standalone",
   "theme_color": "#F44336",
   "background_color": "#F44336"
