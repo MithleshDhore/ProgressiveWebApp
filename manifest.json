@@ -49,7 +49,7 @@
 		}
 	],
   "scope": "/",
-  "start_url": "index.html?utm_source=web_app_manifest",
+  "start_url": ".",
   "orientation": "landscape",
   "display": "standalone",
   "theme_color": "#F44336",
